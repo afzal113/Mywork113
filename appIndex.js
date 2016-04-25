@@ -5,7 +5,7 @@
 function addOne(x){
 	return function addTwo(y) {
 		return x + y;
-	}
+	};
 }
 
 var add = addOne(5);
